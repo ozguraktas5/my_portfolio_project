@@ -1,0 +1,68 @@
+{
+    "basic_info": {
+      "name": "Ozgur Aktas",
+      "titles": [ "Full Stack Python Developer","Front-end Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML",
+          "class": "devicon-html5-plain",
+          
+        },
+        {
+          "name": "CSS",
+          "class": "devicon-css3-plain",
+          
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-angularjs-plain",
+          
+        },
+        {
+          "name": "React JS",
+          "class": "devicon-typescript-plain",
+          
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          
+        }
+      ]
+    }
+  }
