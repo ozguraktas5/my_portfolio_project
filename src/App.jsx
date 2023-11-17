@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
+import About from "./components/About";
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
@@ -108,7 +109,7 @@ const App = () => {
         resumeBasicInfo={resumeData.basic_info}
         sharedBasicInfo={sharedData.basic_info}
       />
-      <Projects
+      {/* <Projects
         resumeProjects={resumeData.projects}
         resumeBasicInfo={resumeData.basic_info}
       />
@@ -120,7 +121,7 @@ const App = () => {
         resumeExperience={resumeData.experience}
         resumeBasicInfo={resumeData.basic_info}
       />
-      <Footer sharedBasicInfo={sharedData.basic_info} />
+      <Footer sharedBasicInfo={sharedData.basic_info} /> */}
     </div>
   );
 };
