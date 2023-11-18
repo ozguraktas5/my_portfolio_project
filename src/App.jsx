@@ -3,6 +3,8 @@ import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
 import About from "./components/About";
+import Projects from "./components/Projects";
+
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
@@ -109,11 +111,11 @@ const App = () => {
         resumeBasicInfo={resumeData.basic_info}
         sharedBasicInfo={sharedData.basic_info}
       />
-      {/* <Projects
+      <Projects
         resumeProjects={resumeData.projects}
         resumeBasicInfo={resumeData.basic_info}
       />
-      <Skills
+      {/* <Skills
         sharedSkills={sharedData.skills}
         resumeBasicInfo={resumeData.basic_info}
       />
