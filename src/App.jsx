@@ -4,6 +4,9 @@ import "./App.scss";
 import Header from "./components/Header";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -115,7 +118,7 @@ const App = () => {
         resumeProjects={resumeData.projects}
         resumeBasicInfo={resumeData.basic_info}
       />
-      {/* <Skills
+      <Skills
         sharedSkills={sharedData.skills}
         resumeBasicInfo={resumeData.basic_info}
       />
@@ -123,7 +126,7 @@ const App = () => {
         resumeExperience={resumeData.experience}
         resumeBasicInfo={resumeData.basic_info}
       />
-      <Footer sharedBasicInfo={sharedData.basic_info} /> */}
+      <Footer sharedBasicInfo={sharedData.basic_info} />
     </div>
   );
 };

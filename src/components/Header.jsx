@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Typical from "react-typical";
-import ReactSwitch from "react-switch";
+import Switch from "react-switch";
 
 const Header = ({ sharedData }) => {
   const [checked, setChecked] = useState(false);
@@ -48,7 +48,7 @@ const Header = ({ sharedData }) => {
             <div className="title-container">
               <Typical className="title-styles" steps={titles} loop={50} />
             </div>
-            <switch
+            <Switch
               checked={checked}
               onChange={onThemeSwitchChange}
               offColor="#baaa80"
