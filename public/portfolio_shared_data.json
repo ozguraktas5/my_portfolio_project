@@ -14,53 +14,53 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "ProfilePhoto.png"
     },
     "skills": {
       "icons": [
         {
           "name": "HTML",
-          "class": "devicon-html5-plain",
+          "class": "devicon-html5-plain"
           
         },
         {
           "name": "CSS",
-          "class": "devicon-css3-plain",
+          "class": "devicon-css3-plain"
           
         },
         {
           "name": "JavaScript",
-          "class": "devicon-angularjs-plain",
+          "class": "devicon-angularjs-plain"
           
         },
         {
           "name": "React JS",
-          "class": "devicon-typescript-plain",
+          "class": "devicon-typescript-plain"
           
         },
         {
           "name": "Python",
-          "class": "devicon-python-plain",
+          "class": "devicon-python-plain"
           
         },
         {
           "name": "Sass",
-          "class": "devicon-sass-original",
+          "class": "devicon-sass-original"
           
         },
         {
           "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
+          "class": "devicon-bootstrap-plain"
           
         },
         {
           "name": "PostgreSQL",
-          "class": "devicon-postgresql-plain",
+          "class": "devicon-postgresql-plain"
           
         },
         {
           "name": "Django",
-          "class": "devicon-django-plain",
+          "class": "devicon-django-plain"
           
         }
       ]

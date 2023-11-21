@@ -11,7 +11,7 @@ const About = (props) => {
   let about = "";
 
   if (sharedBasicInfo) {
-    profilepic = "images" + sharedBasicInfo.image;
+    profilepic = "images/" + sharedBasicInfo.image;
   }
 
   if (resumeBasicInfo) {
@@ -23,7 +23,7 @@ const About = (props) => {
   return (
     <section id="about">
       <div className="col-md-12">
-        <h1 style={{ color: "black" }}>
+        <h1 style={{ color: "black", fontSize: "2.5em" }}>
           <span>{sectionName}</span>
         </h1>
         <div className="row center mx-auto mb-5">
@@ -71,7 +71,7 @@ const About = (props) => {
                 >
                   <br />
                   <span className="wave">{hello}</span>
-                  <br />
+                  
                   <br />
                   {about}
                 </div>

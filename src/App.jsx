@@ -104,7 +104,7 @@ const App = () => {
         >
           <span
             className="iconify language-icon"
-            data-icon="twemoji-flag-for-flag-poland"
+            data-icon="twemoji-flag-for-flag-turkey"
             data-inline="false"
             id={window.$secondaryLanguageIconId}
           ></span>

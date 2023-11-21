@@ -66,7 +66,7 @@ const Experience = (props) => {
     <section id="resume" className="pb-5">
       <div className="col-md-12 mx-auto">
         <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
+          <h1 className="section-title" style={{ color: "black", fontSize: "2.5em" }}>
             <span className="text-black" style={{ textAlign: "center" }}>
               {sectionName}
             </span>
