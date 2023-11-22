@@ -57,7 +57,7 @@ const App = () => {
       cache: false,
       success: function (data) {
         setSharedData(data);
-        document.title = `${sharedData.basic_info.name}`;
+        document.title = `${data.basic_info.name}`;
       },
       error: function (xhr, status, err) {
         alert(err);
@@ -71,7 +71,7 @@ const App = () => {
       window.$primaryLanguage,
       window.$secondaryLanguageIconId
     );
-  }, [sharedData.basic_info]);
+  }, []);
 
   return (
     <div>

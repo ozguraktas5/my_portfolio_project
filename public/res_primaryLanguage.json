@@ -1,6 +1,6 @@
 {
   "basic_info": {
-    "description_header": "Hi",
+    "description_header": "Hi 👋",
     "description": "I'm Ozgur Aktas. A developer with high discipline, a master of continuous self-improvement, and a lover of contributing to open source projects.",
     "section_name": {
       "about": "About me",
@@ -28,13 +28,10 @@
       ]
     },
     {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
-      ],
+      "title": "Different Boxes",
+      "startDate": "2023",
+      "description": "Welcome to Different Boxes, a cutting-edge e-commerce platform designed for a seamless shopping experience. Our project encompasses a feature-rich frontend for an online store, providing users with a diverse range of products within an intuitive and visually appealing interface.",
+      "images": ["images/Projects-Photo/DifferentBoxes.png"],
       "url": "https://github.com",
       "technologies": [
         {
@@ -48,13 +45,10 @@
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-      "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
-      ],
+      "title": "Product Pulse",
+      "startDate": "2023",
+      "description": "Welcome to Product Pulse, an innovative e-commerce project powered by Django, designed to provide users with a dynamic and feature-rich online shopping experience. Dive into the world of Product Pulse, where seamless functionality meets a visually engaging interface.",
+      "images": ["images/Projects-Photo/ProductPulse.png"],
       "url": "https://github.com",
       "technologies": [
         {

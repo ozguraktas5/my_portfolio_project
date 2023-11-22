@@ -64,14 +64,14 @@ const About = (props) => {
                 <div
                   className="card-body font-trebuchet text-justify ml-3 mr-3"
                   style={{
-                    height: "auto",
-                    fontSize: "132%",
+                    height: "30vh",
+                    fontSize: "150%",
                     lineHeight: "200%",
                   }}
                 >
                   <br />
                   <span className="wave">{hello}</span>
-                  
+                  <br />
                   <br />
                   {about}
                 </div>

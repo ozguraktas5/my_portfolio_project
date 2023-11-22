@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
+
 const Projects = (props) => {
   const [deps, setDeps] = useState({});
   const [detailsModalShow, setDetailsModalShow] = useState(false);
