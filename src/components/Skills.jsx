@@ -8,7 +8,7 @@ const Skills = (props) => {
         <li className="list-inline-item mx-3" key={i}>
           <span>
             <div className="text-center skills-title">
-              <i className={skill.class} style={{ fontSize: "220%" }}>
+              <i className={skill.class} style={{ fontSize: "300%" }}>
                 <p
                   className="text-center"
                   style={{ fontSize: "30%", marginTop: "4px" }}

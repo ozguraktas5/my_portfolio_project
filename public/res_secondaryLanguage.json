@@ -1,118 +1,82 @@
 {
-    "basic_info": {
-      "description_header": "Merhaba",
-      "description": "Ben Özgür. Yüksek disipline sahip, sürekli kendini geliştirme konusunda uzman, açık kaynak projelere katkıda bulunmayı seven bir geliştiriciyim.",
-      "section_name": {
-        "about": "Hakkımda",
-        "projects": "Projeler",
-        "skills": "Yetenekler",
-        "experience": "Deneyimler"
-      }
+  "basic_info": {
+    "description_header": "Merhaba 👋",
+    "description": "Ben Özgür. Yüksek disipline sahip, sürekli kendini geliştirme konusunda uzman, açık kaynak projelere katkıda bulunmayı seven bir geliştiriciyim.",
+    "section_name": {
+      "about": "Hakkımda",
+      "projects": "Projeler",
+      "skills": "Yetenekler",
+      "experience": "Deneyimler"
+    }
+  },
+  "projects": [
+    {
+      "title": "Hava Durumu Uygulaması",
+      "startDate": "2023",
+      "description": "Dünyanın herhangi bir yerindeki mevcut hava koşulları hakkında zahmetsizce bilgi alabileceğiniz sezgisel Hava Durumu Uygulamamıza hoş geldiniz. İster gününüzü, ister hafta sonu kaçamağını veya uluslararası bir macerayı planlıyor olun, uygulamamız gerçek zamanlı hava durumu güncellemelerini hassas ve şık bir şekilde sağlar.",
+      "images": ["images/Projects-Photo/WeatherApp.png"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Farklı Kutular",
+      "startDate": "2023",
+      "description": "Sorunsuz bir alışveriş deneyimi için tasarlanmış son teknoloji e-ticaret platformu Different Boxes'a hoş geldiniz. Projemiz, kullanıcılara sezgisel ve görsel olarak çekici bir arayüz içerisinde çok çeşitli ürünler sunan, çevrimiçi bir mağaza için zengin özelliklere sahip bir ön yüzü kapsıyor.",
+      "images": ["images/Projects-Photo/DifferentBoxes.png"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Ürün Nabzı",
+      "startDate": "2023",
+      "description": "Kullanıcılara dinamik ve zengin özelliklere sahip bir çevrimiçi alışveriş deneyimi sunmak için tasarlanan, Django tarafından desteklenen yenilikçi bir e-ticaret projesi olan Product Pulse'a hoş geldiniz. Sorunsuz işlevselliğin görsel olarak ilgi çekici bir arayüzle buluştuğu Product Pulse dünyasına dalın.",
+      "images": ["images/Projects-Photo/ProductPulse.png"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "name": "Python",
+          "class": "devicon-python-plain"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Eğitim Kampı",
+      "title": "Tam Yığın Geliştirici",
+      "years": "10.2023 - şu an",
+      "mainTech": ["React JS, Django"],
+      "technologies": [
+        "REST API",
+        "SASS",
+        "JavaScript",
+        "Bootstrap",
+        "PostgreSQL",
+        "React JS",
+        "Django Rest Framework"
+      ]
+    }
+  ]
+}

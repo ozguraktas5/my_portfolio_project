@@ -38,7 +38,7 @@ const Experience = (props) => {
             color: "#fff",
             textAlign: "center",
           }}
-          icon={<i className="fab fa-angular experience-icon"></i>}
+          icon={<i className="fab fa-react experience-icon"></i>}
           key={i}
         >
           <div style={{ textAlign: "left", marginBottom: "4px" }}>
