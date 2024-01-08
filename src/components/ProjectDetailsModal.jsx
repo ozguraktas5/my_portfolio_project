@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
-import AwesomeSliderStyles from "../scss/light-slider.scss";
-import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
+import AwesomeSliderStyles from "../scss/light-slider.scss?inline";
+import AwesomeSliderStyles2 from "../scss/dark-slider.scss?inline";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
